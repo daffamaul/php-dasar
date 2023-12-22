@@ -1,0 +1,15 @@
+Daftar superglobals pada PHP
+1. $_GET
+2. $_POST
+3. $_ENV
+4. $_SESSION
+5. $_COOKIE
+6. $_REQUEST
+7. $_SERVER
+
+- Semuanya adalah Array Asosiatif
+- URL -> data ditangkap melalui $_GET
+- FORM -> data dapat ditangkap menggunakan $_GET & $_POST
+
+Hati-hati ketika form methodnya $_GET maka datanya akan selalu dikirimkan melalui URL
+
